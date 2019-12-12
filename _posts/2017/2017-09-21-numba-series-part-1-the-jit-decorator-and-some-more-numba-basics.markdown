@@ -1,11 +1,12 @@
 ---
 layout: post
-title: 'Numba series part 1: The @jit decorator and some more Numba basics'
+title: 'How come this works, but the other doesn''t????'
 date: '2017-09-21 21:41'
 excerpt: >-
   In this part we'll have a closer look at the @jit decorator of the Numba
   library and talk about some pitfalls, as well as some more basics.
 comments: true
+published: true
 ---
 
 In the first part of the little Numba series I've planned we will focus mainly on the `@jit` decorator. Their exist different decorators in the Numba library and we will talk about them later, but for the start we will concentrate on the `@jit` one. On our way we will also explore some basics, which are good to know about Numba library in general.
