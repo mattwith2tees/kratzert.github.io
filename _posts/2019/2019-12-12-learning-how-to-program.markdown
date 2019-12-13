@@ -19,6 +19,7 @@ So let's start off by clarifying what my exact job title is, because I hear the 
 We can talk about what to expect while on your path to becoming an engineer:
 
 1. **A lot of reading and research**
+
 So far, I've been working professionally for 2 years now, and til this day, I find myself browsing the web and researching how to fix errors in my code or solve simple problems. Experience makes a different, but even senior engineers rely on Google and StackOverflow to get them through their problems.
 
 2. 
