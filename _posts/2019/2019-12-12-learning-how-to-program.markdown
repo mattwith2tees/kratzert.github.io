@@ -22,4 +22,8 @@ We can talk about what to expect while on your path to becoming an engineer:
 
 So far, I've been working professionally for 2 years now, and til this day, I find myself browsing the web and researching how to fix errors in my code or solve simple problems. Experience makes a different, but even senior engineers rely on Google and StackOverflow to get them through their problems.
 
+This is **one** of my browsers as we speak.
+![Screen Shot 2019-12-12 at 8.06.19 PM.png]({{site.baseurl}}/img/Screen Shot 2019-12-12 at 8.06.19 PM.png)
+
+
 2. 
