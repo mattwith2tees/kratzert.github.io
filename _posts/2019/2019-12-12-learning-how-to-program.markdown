@@ -2,7 +2,7 @@
 layout: post
 title: 'So you want to learn how to code, eh?'
 date: '2019-12-12 08:36'
-excerpt: If you're ready for a career change, or just simply looking for a challenge. Here are some of my tips to becoming a software engineer in practice and professionally.
+excerpt: If you're ready for a career change, or just simply looking for a challenge and considering becoming an engineer. Here are some of my tips to becoming a software engineer in practice and professionally.
 comments: true
 published: true
 ---
