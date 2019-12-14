@@ -6,7 +6,7 @@ excerpt: >-
   If you're ready for a career change, or just simply looking for a challenge
   and considering becoming an engineer. Here are some of my tips and advice.
 comments: true
-published: true
+published: false
 ---
 People come to me all the time asking about becoming a programmer. Wanting to know where to start. What classes to take. And if school is even necessary to land that programming job.
 
