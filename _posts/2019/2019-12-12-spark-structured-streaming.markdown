@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Getting Started With Spark Structured Streaming
+title: Getting Started with Apache Spark's Structured Streaming
 date: '2019-12-13 11:12'
 excerpt: Using PySpark with AWS Kinesis Data Streams
 comments: true
+published: false
 ---
 
 <div class="alert alert-info">
