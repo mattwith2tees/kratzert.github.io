@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Test post to see if this thing is working.
-date: '2019-12-12 08:31'
-excerpt: Please let this thing work this time.
+title: Getting Started With Spark Structured Streaming
+date: '2019-12-13 11:12'
+excerpt: Using PySpark with AWS Kinesis Data Streams
 comments: true
 ---
 
