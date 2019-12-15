@@ -50,11 +50,11 @@ spark = SparkSession.builder \
     .appName("kinesis-test_app") \
     .config("spark.jars", "/path/to/jar/spark-sql-kinesis_2.11-2.4.0.jar") \
     .config("spark.jars.packages", "org.apache.spark:spark-streaming-kinesis-asl_2.11:2.4.4") \
-    .enableHiveSupport() \
     .getOrCreate()
 ```  
 
-_SparkSession_ is the front door to Spark's functionality and underlying APIs.  
-Provide Spark with your own _appName_ (this does not have to be the same name as your Kinesis stream).  
-The configuration properties are important things to make note of because these are external resources that are necessary to connect your PySpark application to Kinesis. Here is the download link to the <a href="https://github.com/mattwith2tees/pyspark_kinesis/blob/master/spark-sql-kinesis_2.11-2.4.0.jar" download="spark-sql-kinesis">jar file</a>.
+- _**SparkSession**_ is the front door to Spark's functionality and underlying APIs.  
+- Provide Spark with your own _**appName**_, which does not have to be the same as the name of your Kinesis stream.
+- The configuration properties are important things to make note of because these are external resources that are necessary to connect your PySpark application to Kinesis. Here is the download link to the <a href="https://github.com/mattwith2tees/pyspark_kinesis/blob/master/spark-sql-kinesis_2.11-2.4.0.jar" download="spark-sql-kinesis">jar file</a>. The next package comes from the Maven Repository so you can paste as is. Both packages are necessary to integrate Spark with Kinesis.
+- Finally, we instantiate the SparkSession with the _getOrCreate()_ method.
 
