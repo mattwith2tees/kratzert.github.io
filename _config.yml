@@ -60,7 +60,7 @@ author:
   name: Matt Turner
   email: "m.turner0627@gmail.com"
   github: mattwith2tees
-  linkedin: https://www.linkedin.com/in/mturner55/
+  linkedin: mturner55
 
 
 # Select which links to show in the footer
@@ -82,7 +82,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "mattwith2tees.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "techdigest.com/mattwith2tees"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
