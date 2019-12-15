@@ -74,7 +74,7 @@ kinesisDF = spark.readStream \
  
 Here is where I begin to read the data stream, hence the _**readStream**_ property.
 - I specify the _format()_ as Kinesis, because that is the source of our data stream.
-- Provide the name of of your Kinesis stream in AWS.
+- Provide the name of your Kinesis stream in AWS.
 - Prove the region.
 - The _**endpointUrl**_ is just your regional endpoint. If your region is us-east-1, then your endpointUrl will be exactly like the one above.
 - _**startingPosition**_ is where you want to begin fetching data from in Kinesis. The possible values are: "latest", "trim_horizon", "earliest"
