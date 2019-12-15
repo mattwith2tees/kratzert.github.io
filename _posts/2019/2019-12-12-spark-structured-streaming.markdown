@@ -6,5 +6,4 @@ excerpt: Using PySpark with AWS Kinesis Data Streams
 comments: true
 published: true
 ---
-If you're not familiar with Apache Spark, here's a pretty good [blog post] (https://mapr.com/blog/spark-101-what-it-what-it-does-and-why-it-matters/) that goes over what Spark is and it's popular use cases.
-
+If you're not familiar with Apache Spark, here's a pretty good [blog post](https://mapr.com/blog/spark-101-what-it-what-it-does-and-why-it-matters/) that goes over what Spark is and it's popular use cases.
