@@ -54,4 +54,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 ```  
 
-_SparkSession_ is the front door to Spark's functionality and underlying APIs. Provide Spark with your own _appName_ (this does not have to be the same name as your Kinesis stream). The configuration properties are important things to make note of.
+_SparkSession_ is the front door to Spark's functionality and underlying APIs.  
+Provide Spark with your own _appName_ (this does not have to be the same name as your Kinesis stream).  
+The configuration properties are important things to make note of because these are external resources that are necessary to connect your PySpark application to Kinesis. Here is the download link to the <a href="https://github.com/mattwith2tees/pyspark_kinesis/blob/master/spark-sql-kinesis_2.11-2.4.0.jar" download="spark-sql-kinesis">jar file</a>.
+
