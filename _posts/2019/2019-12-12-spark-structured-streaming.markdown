@@ -55,6 +55,29 @@ spark = SparkSession.builder \
 
 - _**SparkSession**_ is the front door to Spark's functionality and underlying APIs.  
 - Provide Spark with your own _**appName**_, which does not have to be the same as the name of your Kinesis stream.
-- The configuration properties are important things to make note of because these are external resources that are necessary to connect your PySpark application to Kinesis. Here is the download link to the <a href="https://github.com/mattwith2tees/pyspark_kinesis/blob/master/spark-sql-kinesis_2.11-2.4.0.jar" download="spark-sql-kinesis">jar file</a>. The next package comes from the Maven Repository so you can paste as is. Both packages are necessary to integrate Spark with Kinesis.
+- The configuration properties are important things to make note of because these are external resources that are necessary to connect your PySpark application to Kinesis. Here is the download link to the <a href="https://github.com/mattwith2tees/pyspark_kinesis/blob/master/spark-sql-kinesis_2.11-2.4.0.jar" download="spark-sql-kinesis">jar file</a>. The next package comes from the Maven Repository so you can paste as is. Remember that both packages are necessary to integrate Spark with Kinesis.
 - Finally, we instantiate the SparkSession with the _getOrCreate()_ method.
+
+Now that the session is up and running, we can create a Dataframe to read the stream data:
+
+```python
+kinesisSpark = spark.readStream \
+    .format('kinesis') \
+    .option('streamName', '<aws_kinesis_stream_name>') \
+    .option('region', '<your_region>') \
+    .option('endpointUrl', 'https://kinesis.us-east-1.amazonaws.com/') \
+    .option('startingPosition', 'earliest') \
+    .option('awsAccessKeyId', '<your_access_key>') \
+    .option('awsSecretKey', '<your_secret_key>') \
+    .load()
+```
+ 
+Here is where we begin to read the data stream, hence the _**readStream**_ property.
+- We specify the _format()_ as Kinesis, because that is the source of our data stream.
+- Provide the name of of your Kinesis stream in AWS.
+- Prove the region.
+- The _**endpointUrl**_ is just your regional endpoint. If your region is us-east-1, then your endpointUrl will be exactly like the one above.
+- _**startingPosition**_ is where you want to begin fetching data from in Kinesis. The possible values are: "latest", "trim_horizon", "earliest"
+- Lastly, provide spark with you AWS Access Key and Secret Key, then _**load()**_.
+
 
