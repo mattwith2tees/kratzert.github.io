@@ -14,17 +14,44 @@ If you're not familiar with Apache Spark, here's a pretty good [blog post](https
 TL;DR  
 The key difference between Spark Streaming and Structured Streaming is the API that each library provides. Spark Streaming provides us with the **DStream API**, where users are working with RDDs, while Structured Streaming is based on the **Dataframe/Dataset API** where users can use query language to manipulate their data.
 
-For this tutorial we will be using AWS Kinesis as our source for our stream data, so head over to the AWS console and create a new Kinesis Data Stream. Since this is a __Hello World!__ application, you can just give your kinesis stream 1 or 2 shards.
+For this tutorial we will be using AWS Kinesis as our source for our stream data, so head over to the AWS console and create a new Kinesis Data Stream. Since this is a _Hello World!_ application, you can just give your kinesis stream 1 or 2 shards to start with.
 
 [Creating a Kinesis Data Stream](https://docs.aws.amazon.com/streams/latest/dev/amazon-kinesis-streams.html)
 
 After your stream is created, you'll need to add data to it by using the following command in your terminal:
 
-```
+```terminal
 aws kinesis put-records \
     --stream-name <your_stream_name> \
     --records Data=<>,PartitionKey=<>
 ```  
 Or refer to the [AWS docs](https://docs.aws.amazon.com/cli/latest/reference/kinesis/put-records.html).
 
+If your data load was success, you should see the following output:
 
+```json
+{
+    "FailedRecordCount": 0,
+    "Records": [
+        {
+            "SequenceNumber": "49602269145774455244746315270154389173555084512406274050",
+            "ShardId": "shardId-000000000000"
+        }
+    ]
+}
+```
+
+Now, open a new python file in any IDE or text editor you're comfortable with and lets start by creating a new _SparkSession_.
+
+```python
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder \
+    .appName("kinesis-test_app") \
+    .config("spark.jars", "/path/to/jar/spark-sql-kinesis_2.11-2.4.0.jar") \
+    .config("spark.jars.packages", "org.apache.spark:spark-streaming-kinesis-asl_2.11:2.4.4") \
+    .enableHiveSupport() \
+    .getOrCreate()
+```  
+
+_SparkSession_ is the front door to Spark's functionality and underlying APIs. Provide Spark with your own _appName_ (this does not have to be the same name as your Kinesis stream). The configuration properties are important things to make note of.
