@@ -110,7 +110,7 @@ spark-submit --jars spark-sql-kinesis_2.11-2.4.0.jar --packages org.apache.spark
 
 If you don't see any details about your Kinesis stream in the console, here are some possible problems.
 
-1. If you are receiving an error that says, "Unable to load credentials", check your AWS credentials in your configuration properties. Make sure that you're using the right Access and Secret Keys. Also, make sure that you check the spelling in your file:  
+- If you are receiving an error that says, "Unable to load credentials", check your AWS credentials in your configuration properties. Make sure that you're using the right Access and Secret Keys. Also, make sure that you check the spelling in your file:
 
 ```python
 .option('awsAccessKeyId', '<your_access_key>') \
@@ -118,7 +118,7 @@ If you don't see any details about your Kinesis stream in the console, here are 
 ```
 I kept receiving this error, because I left out the _Id_ in _awsAccessKeyId_. 🤦🏾‍♂️
 
-2. If you're getting an error that says, "Failed to find data source: kinesis", that means your jar file did not download correctly, or at all. Make sure you're using the absolute path when pointing to your jar file.
+- If you're getting an error that says, "Failed to find data source: kinesis", that means your jar file did not download correctly, or at all. Make sure you're using the absolute path when pointing to your jar file.
 
 If you're getting other errors and still cannot seem to figure it out, please leave a comment and I will be more that happy to help you out.
 
