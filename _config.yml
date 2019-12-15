@@ -24,7 +24,7 @@ description: Documenting the things I find interesting.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-#   Open Learning: "openlearning"
+  Open Learning: "openlearning"
   Projects: "projects"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
