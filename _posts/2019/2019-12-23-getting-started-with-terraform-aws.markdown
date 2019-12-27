@@ -7,9 +7,9 @@ comments: true
 published: true
 ---
 
-Back again with another simple and quick tutorial, this time showing you how to include **Terraform** in your project to boot up your AWS machines instantaneously. If you're not familiar with Terraform, here is how HashiCorp describes it:
+Back again with another simple and quick tutorial, this time showing you how to include **Terraform** in your project to boot up your AWS machines instantaneously. If you're not familiar with Terraform, here is how HashiCorp describes it on their repo:
 
-> Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source >tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
+> Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 
 So basically, Terraform makes it easier for you to manage your infrastructure by converting all of your configurations to code.
 
@@ -19,6 +19,46 @@ That's a high-level look at Terraform, now let's see how we can incorporate that
 
 
 Let's start off by installing Terraform onto your machine by downloading it [here](https://www.terraform.io/downloads.html).
+
+Once installed, head to your root project and now let's make a directory and name it _terraform_. Then, create a _main.tf_ file within your terraform folder - this is where the magic is created.
+
+In order to use AWS resources, you must specify AWS as the provider in your _main.tf_ file:
+
+```json
+provider "aws" {
+    region = "us-east-1"
+    shared_credentials_file = "path/to/your/.aws/credentials"
+} 
+```
+
+The above code is basically configuring your Terraform script to communicate with the AWS API. After specifying AWS as our provider, we must then specify the **region** and the path to your aws credentials file. In a production environment, that path won't be necessary, because it's recommended you utilize IAM users and groups.
+
+
+Now we must specify the resource we want to configure in the same file; since spinning up EC2 instances are the most popular, we'll start there:
+
+```json
+resource "aws_instance" "web" {
+    ami = "ami-00068cd7555f543d5"
+    instance_type = "t2.micro"
+
+    tags = {
+        Name = "matt-ec2-tf"
+    }
+}
+```
+
+_aws_instance_ declares an EC2 instance, and _web_ is the local name given to the resource. Next, I chose an us-east-1 Linux AMI and then a free tier instance type. _Name_ inside the **tags** block is the name of your EC2 instance.
+
+
+Once you're finished, open up terminal and ```cd``` into your _terraform_ directory with your _main.tf_ file and type ```terraform init```
+This initilizes Terraform so that you can start executing your modules.
+
+When Terraform is done initializing, execute
+```terraform plan```
+This command provides you with a preview of your resource configurations before they are executed:
+
+
+
 
 
 
