@@ -2,7 +2,9 @@
 layout: post
 title: Beginners Guide - Terraform + AWS
 date: '2019-12-23 12:37'
-excerpt: Getting started with using Terraform to quickly configure your infrastructure in AWS
+excerpt: >-
+  Getting started with using Terraform to quickly configure your infrastructure
+  in AWS
 comments: true
 published: true
 ---
@@ -50,15 +52,16 @@ resource "aws_instance" "web" {
 _aws_instance_ declares an EC2 instance, and _web_ is the local name given to the resource. Next, I chose an us-east-1 Linux AMI and then a free tier instance type. _Name_ inside the **tags** block is the name of your EC2 instance.
 
 
-Once you're finished, open up terminal and ```cd``` into your _terraform_ directory with your _main.tf_ file and type ```terraform init```
+Once you're finished, open up terminal and ```cd``` into your _terraform_ directory with your _main.tf_ file and type
+
+```terraform init```
+
 This initilizes Terraform so that you can start executing your modules.
 
 When Terraform is done initializing, execute
+
 ```terraform plan```
+
 This command provides you with a preview of your resource configurations before they are executed:
-
-
-
-
-
+![Screen Shot 2019-12-27 at 3.52.04 PM.png]({{site.baseurl}}/img/Screen Shot 2019-12-27 at 3.52.04 PM.png)
 
