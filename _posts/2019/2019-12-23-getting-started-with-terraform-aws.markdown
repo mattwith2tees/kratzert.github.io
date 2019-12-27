@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beginners Guide - Terraform + AWS
+title: Beginner's Guide - Terraform + AWS
 date: '2019-12-23 12:37'
 excerpt: >-
   Getting started with using Terraform to quickly configure your infrastructure
