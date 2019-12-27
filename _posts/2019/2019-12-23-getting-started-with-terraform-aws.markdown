@@ -24,7 +24,7 @@ Once installed, head to your root project and now let's make a directory and nam
 
 In order to use AWS resources, you must specify AWS as the provider in your _main.tf_ file:
 
-```json
+```
 provider "aws" {
     region = "us-east-1"
     shared_credentials_file = "path/to/your/.aws/credentials"
@@ -36,7 +36,7 @@ The above code is basically configuring your Terraform script to communicate wit
 
 Now we must specify the resource we want to configure in the same file; since spinning up EC2 instances are the most popular, we'll start there:
 
-```json
+```
 resource "aws_instance" "web" {
     ami = "ami-00068cd7555f543d5"
     instance_type = "t2.micro"
