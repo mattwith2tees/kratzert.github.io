@@ -63,6 +63,7 @@ When Terraform is done initializing, execute:
 ```terraform plan```
 
 This command provides you with a preview of your resource configurations before they are executed:
+
 ![Screen Shot 2019-12-27 at 3.52.04 PM.png]({{site.baseurl}}/img/Screen Shot 2019-12-27 at 3.52.04 PM.png)
 
 If everything looks good after reviewing the terraform plan, you can proceed with:
