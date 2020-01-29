@@ -14,7 +14,7 @@ Fast forward to February of 2019, when I didn't get the promotion I was due for 
 
 This time, I made my presence. I controlled the interviews, showcased my skills, and proved my knowledge. I did and accomplished some pretty cool things at Home Depot, along with that, I acquired some new skills revolving around technology that is in high demand. Which means that when it came to talking about that bag. **I. Had. Leverage.** 
 
-<iframe src="https://giphy.com/embed/7B71Ci4KE3m0" width="480" height="232" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-7B71Ci4KE3m0">via GIPHY</a></p>
+<center><iframe src="https://giphy.com/embed/7B71Ci4KE3m0" width="480" height="232" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-7B71Ci4KE3m0"></a></p></center>
 
 The key takeaway from this is:
 
@@ -22,5 +22,4 @@ The key takeaway from this is:
 
 Leverage
 
-**Before** you even start applying for jobs. Figure out what skills you need to have in order for you to have leverage. 
-
+**Before** you even start applying for jobs. Figure out what skills you need to have in order for you to have leverage.
