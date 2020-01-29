@@ -19,4 +19,22 @@ This time, I made my presence. I controlled the interviews, showcased my skills,
 The key takeaway from this is:
 <center><h1>Leverage</h1></center>
 
-**Before** you even start applying for jobs. Figure out what skills you need to have in order for you to have leverage.
+**Before** you even start applying for jobs. Figure out what technologies are currently HOT in your industry and what particular technologies your potential employer is looking for candidates to possess. Then align your resume to those technologies. Whether you are incorporating those technologies on projects in your current role, or taking the time out to use those technologies on personal projects, get that experience in. You don't have to be an expert, just be able to hold a decent conversation about the tech, and have some good opinions. But honestly, it's better to have used particular technologies within your current job.
+
+This means, stop wasting your time if you're doing menial tasks at work. Stop accepting the busy work. If you feel like you're not being challenged enough, tell your manager to move you to another project, or just switch teams within your organization. If all of that isn't possible, that's when you start your own projects on the side. In your free-time, set up EC2/EMR clusters, create and load data into MySQL or Postgres, build a simple React app, or build a small data pipeline. Anything to get a little experience under your belt. A few hours of this per day will give you leverage.
+
+So that when it comes time to interview, you're controlling the interviews by asking detailed questions about their tech stack, you're asking them about their data pipelines, their CI/CD maturity, etc. Being a little bit more informed will get you a lot more money. Because by asking these types of detailed questions, they realize that you will be able to provide valuable insight.
+
+<center><iframe src="https://giphy.com/embed/d3mlE7uhX8KFgEmY" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/culture--think-hmm-d3mlE7uhX8KFgEmY"></a></p></center>
+
+And that's exactly what I did. I touched as many Google Cloud products as I could while at Home Depot, built python scripts for our data pipelines, got hands-on experience with Jenkins, maintained our java applications, and really improved on my SQL skills. I understood that all of these technologies were hot, so I made a concious effort to get as much hands-on experience with of them. By no means, did I call myself an expert. But when it came time to showcase my knowledge, I did just that. And with that, came the leverage. I was able to negotiate my salary, and by May of 2019, I was making 20k more than I was making that past January. 
+
+<center><iframe src="https://giphy.com/embed/LCdPNT81vlv3y" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/LCdPNT81vlv3y"></a></p></center>
+
+I eventually left Equifax that following November, where I saw another 10k increase in my salary by using that same simple strategy. By being more strategic during your job hunt, you can put yourself in front of the companies you **know** that you'll be value to. Leverage that value and get that bag.
+
+Also, a big thing to remember when you're going through the recruiting process, is that these companies need <u>you</u> and not the other way around. They are spending a lot of money by bringing you in for interviews because they feel that you will bring value to the company. So approach interviews with confidence. Think of it like this: It's not a matter of why that company should hire you. It's a matter of why you should join their company. And with that simple truth, you already have one up on every employer. Hopefully that gives you a little more confidence going into your next interview, because interviews sense that.
+
+I may follow this blog post up with interview tips and how to negotiate your salary. If you're interested in that. Let me know.
+
+Be sure to follow my instagram @mturner. Peace.
