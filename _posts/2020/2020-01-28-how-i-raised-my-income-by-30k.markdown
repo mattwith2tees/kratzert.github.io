@@ -6,7 +6,7 @@ excerpt: >-
   If you want to make more money, go get it. Leverage your skills and have a
   strategy.
 comments: true
-published: false
+published: true
 ---
 I graduated from college in December of 2017, and started my career that following January. I didn't have a job lined up before walking across that stage, so I was honestly willing to take the first thing that was handed to me. Yes, I had countless interviews, really good ones, but they went nowhere. When I had the first offer on the table, I lunged at it with no questions. No negotiating. Nothing. I had no leverage. Home Depot got a steal. I was fresh meat, right out of college. Don't get me wrong, the money was good, but I know I could've gotten a little more.
 
