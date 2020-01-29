@@ -17,8 +17,6 @@ This time, I made my presence. I controlled the interviews, showcased my skills,
 <center><iframe src="https://giphy.com/embed/7B71Ci4KE3m0" width="480" height="232" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-7B71Ci4KE3m0"></a></p></center>
 
 The key takeaway from this is:
-<center>
-# Leverage
-</center>
+<center><h1>Leverage</h1></center>
 
 **Before** you even start applying for jobs. Figure out what skills you need to have in order for you to have leverage.
