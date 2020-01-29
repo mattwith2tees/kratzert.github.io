@@ -8,7 +8,7 @@ excerpt: >-
 comments: true
 published: true
 ---
-I graduated from college in December of 2017, and started my career that following January. I didn't have a job lined up before walking across that stage, so I was honestly willing to take the first thing that was handed to me. Yes, I had countless interviews, really good ones, but they went nowhere. When I had the first offer on the table, I lunged at it with no questions. No negotiating. Nothing. I had no leverage. Home Depot got a steal. I was fresh meat, right out of college. Don't get me wrong, the money was good, but I know I could've gotten a little more.
+I graduated from college in December of 2017, and started my career that following January. I didn't have a job lined up before walking across that stage. Yes, I had countless interviews, really good ones, but they went nowhere. So I was honestly willing to take the first thing that was handed to me. When I finally had that first offer on the table, I lunged at it with no questions. No negotiating. Nothing. I had no leverage. I was fresh meat, right out of college. With nothing on my resume to vouch for me. Don't get me wrong, the money was good, but I know I could've gotten a little more.
 
 Fast forward to February of 2019, when I didn't get the promotion I was due for and expecting, I began looking for a new opportunity. After some time of prepping and interviewing, I was able get an offer that was reasonable, from Equifax. With experience under my belt, this recruiting process was much different.
 
