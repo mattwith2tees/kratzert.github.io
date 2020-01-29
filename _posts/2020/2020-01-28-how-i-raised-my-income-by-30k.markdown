@@ -18,6 +18,6 @@ This time, I made my presence. I controlled the interviews, showcased my skills,
 
 The key takeaway from this is:
 
-###### Leverage
+##### Leverage
 
 **Before** you even start applying for jobs. Figure out what skills you need to have in order for you to have leverage.
