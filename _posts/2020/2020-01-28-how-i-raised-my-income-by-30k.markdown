@@ -12,11 +12,11 @@ I graduated from college in December of 2017, and started my career that followi
 
 Fast forward to February of 2019, when I didn't get the promotion I was due for and expecting, I began looking for a new opportunity. After some time of prepping and interviewing, I was able get an offer that was reasonable, from Equifax. With experience under my belt, this recruiting process was much different.
 
-This time, I made my presence. I controlled the interviews, showcased my skills, and proved my knowledge. Which means that when it came to talking about that bag. I. Had. Leverage.
+This time, I made my presence. I controlled the interviews, showcased my skills, and proved my knowledge. I did and accomplished some pretty cool things at Home Depot, along with that, I acquired some new skills revolving around technology that is in high demand. Which means that when it came to talking about that bag. **I. Had. Leverage.** 
 
-https://media.giphy.com/media/7B71Ci4KE3m0/source.gif
+<iframe src="https://giphy.com/embed/7B71Ci4KE3m0" width="480" height="232" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-7B71Ci4KE3m0">via GIPHY</a></p>
 
-The key takeaways from this is:
+The key takeaway from this is:
 
 ##
 
