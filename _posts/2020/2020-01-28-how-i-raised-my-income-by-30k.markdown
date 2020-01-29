@@ -45,4 +45,4 @@ Also, a big thing to remember when you're going through the recruiting process, 
 
 I may follow this blog post up with interview tips and how to negotiate your salary. If you're interested in that. Let me know.
 
-Be sure to follow my instagram @mturner. Peace.
+Be sure to follow my instagram @1mturner. Peace.
