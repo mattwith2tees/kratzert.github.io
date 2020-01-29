@@ -18,7 +18,7 @@ When I finally had that first offer on the table, I lunged at it with no questio
 
 Fast forward to February of 2019, when I didn't get the promotion I was due for and expecting, I began looking for a new opportunity. After some time of prepping and interviewing, I was able get an offer that was reasonable, from Equifax. With experience under my belt, _this recruiting process was much different_.
 
-This time, I made my presence. I controlled the interviews, showcased my skills, and proved my knowledge. I accomplished some pretty cool things at Home Depot, along with that, I acquired some new skills revolving around technology that is in high demand. Which means that when it came to talking about that bag. **I. Had. Leverage.** 
+This time, I made my presence. I controlled the interviews, showcased my skills, and proved my knowledge. I accomplished some pretty cool things at Home Depot. Along with that, I acquired some new skills revolving around technology that is in high demand. Which means that when it came to talking about that bag. **I. Had. Leverage.** 
 
 <center><iframe src="https://giphy.com/embed/7B71Ci4KE3m0" width="480" height="232" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-7B71Ci4KE3m0"></a></p></center>
 
