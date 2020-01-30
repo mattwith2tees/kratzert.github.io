@@ -18,7 +18,7 @@ When I finally had that first offer on the table (Home Depot), I lunged at it wi
 
 Fast forward to February of 2019, when I didn't get the promotion I was expecting, I began looking for a new opportunity. After some time of prepping and interviewing, I was able get an offer from Equifax that was reasonable. This recruiting process was much different.
 
-This time, I made my presence and value be known. **I** controlled the interviews. And how do you control an interview? By asking great questions, tying in your knowledge with their current project(s), and by providing insight and being engaged. I accomplished some pretty cool things at Home Depot and was a part of a really transformational project. Along with that, I acquired some new skills revolving around technology that is in high demand. Becuase of that, I was able to convince them that I could <u>add value</u>. **I. Had. Leverage.** 
+This time, I made my presence and value be known. **I** controlled the interviews. And how do you control an interview? By asking great questions, tying in your knowledge with their current project(s), and by providing insight and being engaged. I accomplished some pretty cool things at Home Depot and was a part of a really transformational project. Along with that, I acquired some new skills revolving around technology that is in high demand. Because of that, I was able to convince them that I could <u>add value</u>. **I. Had. Leverage.** 
 
 <center><iframe src="https://giphy.com/embed/7B71Ci4KE3m0" width="480" height="232" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-7B71Ci4KE3m0"></a></p></center>
 
