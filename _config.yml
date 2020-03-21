@@ -87,7 +87,7 @@ url-pretty: "techdigest.com/mattwith2tees"  # eg. "deanattali.com/beautiful-jeky
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: ""
+disqus: "https-mattwith2tees-github-io"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: ""
