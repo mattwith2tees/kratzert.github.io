@@ -47,9 +47,9 @@ avatar: "/img/IMG_4117.JPG"
 # for the navigation bar, the main page, and the footer.
  navbar-col: "orange"
 # navbar-img: "/img/bgimage.png"
-# footer-col: "blue"
+ footer-col: "blue"
 # footer-img: "/img/bgimage.png"
-# page-col: "#FF0000"
+ page-col: "#FF0000"
 # page-img: "/img/bgimage.png"
 
 # --- Footer options --- #
