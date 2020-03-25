@@ -6,7 +6,7 @@ excerpt: >-
   If you want to make more money, go get it. Leverage your skills and have a
   strategy.
 comments: true
-published: true
+published: false
 ---
 I graduated from college in December of 2017, and started my career that following January (2018). I didn't have a job lined up before walking across that stage. It was nerve-racking because I had countless interviews, _really good ones_, but they just went **nowhere**. So, I was honestly willing to take the first thing that was handed to me. 
 
