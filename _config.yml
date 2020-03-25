@@ -1,10 +1,4 @@
-# --- General options --- #
-
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-#url: "https://mattwith2tees.github.io"
+url: "https://mattwith2tees.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
