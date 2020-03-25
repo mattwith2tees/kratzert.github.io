@@ -1,6 +1,10 @@
 ---
+layout: post
 title: Build Your Own Website With WordPress
-date: 2020-
+date: '2020-03-25'
+excerpt: >-
+  Build your dream website using WordPress - no coding experience required.
+comments: true
 published: true
 ---
 ## A New Post
