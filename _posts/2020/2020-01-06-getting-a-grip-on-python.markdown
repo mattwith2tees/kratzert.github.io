@@ -5,5 +5,5 @@ date: '2020-01-06 2:00'
 excerpt: >-
   Understanding the basics of Python.
 comments: true
-published: false
+published: true
 ---
